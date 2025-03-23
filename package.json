@@ -1,0 +1,18 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "A test for my coding session",
+  "main": "Page Principale.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass style.sass style.css"
+  },
+  "author": "JeanFelix Lavoie",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.84.0"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
