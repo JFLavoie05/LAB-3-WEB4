@@ -37,7 +37,7 @@ function ConfirmerEnvoie() {
     .then(json => console.log(json))
     .catch(error => console.log(error))
     alert("Ajout confirmer");
-    window.location.href = "Page Principale.html";
+    window.location.href = "html/Page Principale.html";
 }
 
 
