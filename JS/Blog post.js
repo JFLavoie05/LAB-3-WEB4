@@ -8,7 +8,7 @@ function AfficherContenu() {
 
     asyncAfficherComms(titre);
 
-    
+
 
     document.querySelector(".TitreBlog").innerHTML += `<h1 class="text-center">${titre}</h1>`;
     document.querySelector(".ContenuBlog").innerHTML += `<p>${contenu}</p>`;
@@ -31,7 +31,7 @@ async function asyncAfficherComms(titreBlog)
                         `
                         <div class="premierCom row mb-3">
                             <div class="col-auto">
-                            <img src="images/user icon.png" alt="Profil" class="profile-img">
+                            <img src="../images/user%20icon.png" alt="Profil" class="profile-img">
                             </div>
                             <div class="col">
                                 <p>${element.contenu}</p>
@@ -45,7 +45,7 @@ async function asyncAfficherComms(titreBlog)
                         <div class="container-fluid">
                             <div class="deuxiemeCom row">
                                 <div class="col-auto">
-                                <img src="images/user icon.png" alt="Profil" class="profile-img">
+                                <img src="../images/user%20icon.png" alt="Profil" class="profile-img">
                                 </div>
                                 <div class="col">
                                     <p>${element.contenu}</p>
